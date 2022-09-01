@@ -1,7 +1,15 @@
 <template>
-    <van-button>click</van-button>
+    <van-empty description="no car">
+        <van-button round type="primary" icon="plus" class="bottom-button">add itaa</van-button>
+    </van-empty>
 </template>
 
+<style scoped>
+.bottom-button {
+    width: 160px;
+    height: 40px;
+}
+</style>
 
 
 <script setup lang="ts">

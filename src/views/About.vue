@@ -1,5 +1,5 @@
 <template>
-    <van-button>about</van-button>
+    <van-empty description="no about" />
 </template>
 
 <script setup lang="ts">
