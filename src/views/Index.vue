@@ -1,6 +1,6 @@
 <template>
     <van-empty description="no car">
-        <van-button round type="primary" icon="plus" class="bottom-button">add itaa</van-button>
+        <van-button round type="primary" icon="plus" class="bottom-button" to="/operation">add itaa</van-button>
     </van-empty>
 </template>
 
